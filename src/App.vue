@@ -12,9 +12,7 @@
         <router-link to="/Seller" class="item">商家</router-link>
       </div>
     </div>
-    <div class="content">
-      I am content!
-    </div>
+    
     <router-view></router-view>
   </div>
 </template>
@@ -58,6 +56,7 @@ export default {
       width: 100%
       heigth: 40px
       line-height: 40px
+      position:relative
       /*border-bottom: 1px solid rgba(7, 17, 27, 0.1)*/
       border-1px(rgba(7, 17, 27, 0.1))
       .tab-item
