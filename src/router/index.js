@@ -17,7 +17,10 @@ export default new Router({
     {
       path: '/Header',
       name: 'Header',
-      component: Header
+      component: Header,
+      children:[
+       {path:"Goods",component: Goods}
+      ]
     },
     {
       path: '/Goods',
